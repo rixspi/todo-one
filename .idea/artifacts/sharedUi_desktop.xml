@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sharedUi-desktop">
+    <output-path>$PROJECT_DIR$/sharedUi/build/libs</output-path>
+    <root id="archive" name="sharedUi-desktop.jar">
+      <element id="module-output" name="Project_name.sharedUi.desktopMain" />
+    </root>
+  </artifact>
+</component>

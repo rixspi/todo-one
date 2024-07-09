@@ -1,0 +1,9 @@
+<resources>
+    <string name="str_template">Hello, %1$s! You have %2$d new messages.</string>
+
+    <string name="Ok">Ok</string>
+    <string name="Cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="show_more">More</string>
+    <string name="show_less">Less</string>
+</resources>
