@@ -15,7 +15,6 @@ import life.catchyour.dev.core.compose.theme.AppTheme
 fun AndroidBaseComposeApp(
     activity: ComponentActivity,
 ) {
-
     AppTheme() {
         // A surface container using the 'background' color from the theme
         Scaffold(

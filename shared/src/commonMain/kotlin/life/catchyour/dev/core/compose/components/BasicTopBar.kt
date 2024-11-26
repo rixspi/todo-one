@@ -16,8 +16,9 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import org.jetbrains.compose.resources.stringResource
-import projectname.shared.generated.resources.Res
-import projectname.shared.generated.resources.str_template
+import todoone.shared.generated.resources.Res
+import todoone.shared.generated.resources.str_template
+
 
 @ExperimentalMaterial3Api
 @Composable

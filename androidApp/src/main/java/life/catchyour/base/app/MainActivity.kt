@@ -7,11 +7,11 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import life.catchyour.BuildConfig
+import life.catchyour.dev.todo.TodoOneComposeApp
 
 
 class MainActivity : ComponentActivity() {
-    private val viewModel: MainActivityViewModel by viewModels()
+    private val viewModel: MainViewModel by viewModels()
 
     @SuppressLint("SourceLockedOrientationActivity")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,15 +20,15 @@ class MainActivity : ComponentActivity() {
         /**
          *  Useful to keep screen on while ADB Wifi
          */
-        if (BuildConfig.DEBUG) {
-            window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
-        }
+//        if (BuildConfig.DEBUG) {
+//            window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+//        }
 
 
         installSplashScreen()
 
         setContent {
-            AndroidBaseComposeApp(this)
+            TodoOneComposeApp()
         }
     }
 }

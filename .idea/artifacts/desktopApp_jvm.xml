@@ -2,7 +2,7 @@
   <artifact type="jar" name="desktopApp-jvm">
     <output-path>$PROJECT_DIR$/desktopApp/build/libs</output-path>
     <root id="archive" name="desktopApp-jvm.jar">
-      <element id="module-output" name="ProjectName.desktopApp.jvmMain" />
+      <element id="module-output" name="ToDoOne.desktopApp.jvmMain" />
     </root>
   </artifact>
 </component>

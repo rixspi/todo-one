@@ -22,11 +22,11 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "life.catchyour"
+        applicationId = "life.catchyour.todo"
         minSdk = 24
         targetSdk = 34
-        versionCode = 24
-        versionName = "1.1.0_${LocalDate.now()}"
+        versionCode = 1
+        versionName = "0.0.1_${LocalDate.now()}"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {

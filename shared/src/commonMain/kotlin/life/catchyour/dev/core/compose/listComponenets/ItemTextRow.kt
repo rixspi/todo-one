@@ -23,9 +23,10 @@ import life.catchyour.dev.core.compose.components.LinkifyText
 import life.catchyour.dev.core.compose.theme.dimens
 import life.catchyour.dev.core.util.empty
 import org.jetbrains.compose.resources.stringResource
-import projectname.shared.generated.resources.Res
-import projectname.shared.generated.resources.show_less
-import projectname.shared.generated.resources.show_more
+import todoone.shared.generated.resources.Res
+import todoone.shared.generated.resources.show_less
+import todoone.shared.generated.resources.show_more
+
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable

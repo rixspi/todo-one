@@ -24,9 +24,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.DialogProperties
 import life.catchyour.dev.core.compose.theme.dimens
 import org.jetbrains.compose.resources.stringResource
-import projectname.shared.generated.resources.Cancel
-import projectname.shared.generated.resources.Ok
-import projectname.shared.generated.resources.Res
+import todoone.shared.generated.resources.Cancel
+import todoone.shared.generated.resources.Ok
+import todoone.shared.generated.resources.Res
+
 
 @Composable
 fun NormalDialog(

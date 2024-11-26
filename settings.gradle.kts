@@ -27,7 +27,7 @@ refreshVersions {
     enableBuildSrcLibs() // <-- Add this
 }
 
-rootProject.name = "ProjectName"
+rootProject.name = "ToDoOne"
 include(":androidApp")
 include(":desktopApp")
 include(":shared")

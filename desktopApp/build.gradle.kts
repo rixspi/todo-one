@@ -14,6 +14,8 @@ kotlin {
             implementation(project(":shared"))
         }
     }
+
+    task("testClasses")
 }
 
 compose.desktop {

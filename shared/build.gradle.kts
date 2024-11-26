@@ -55,18 +55,21 @@ kotlin {
             implementation(KotlinX.datetime)
 
             implementation(Koin.core)
+            implementation("io.insert-koin:koin-compose:1.2.0-Beta4")
+            implementation("io.insert-koin:koin-compose-viewmodel:1.2.0-Beta4")
 
             implementation(KotlinX.serialization.core)
             implementation(KotlinX.serialization.json)
 
 
-            implementation("io.realm.kotlin:library-base:1.16.0")
+            implementation("io.realm.kotlin:library-base:2.0.0")
             // If using Device Sync
             // implementation("io.realm.kotlin:library-sync:1.16.0")
 
             val voyagerVersion = "1.1.0-beta02"
 
             // Multiplatform
+            implementation("cafe.adriel.voyager:voyager-lifecycle-kmp:$voyagerVersion")
 
             // Navigator
             implementation("cafe.adriel.voyager:voyager-navigator:$voyagerVersion")
@@ -130,6 +133,7 @@ kotlin {
             }
         }
     }
+
 }
 
 android {
@@ -145,6 +149,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 }
+
 dependencies {
     implementation("androidx.core:core:1.13.1")
 }

@@ -17,9 +17,10 @@ import kotlinx.datetime.TimeZone
 import kotlinx.datetime.atStartOfDayIn
 import kotlinx.datetime.toLocalDateTime
 import org.jetbrains.compose.resources.stringResource
-import projectname.shared.generated.resources.Cancel
-import projectname.shared.generated.resources.Ok
-import projectname.shared.generated.resources.Res
+import todoone.shared.generated.resources.Cancel
+import todoone.shared.generated.resources.Ok
+import todoone.shared.generated.resources.Res
+
 
 enum class DatePickerMode {
     BIG,
